@@ -5,7 +5,7 @@ import os
 
 AUTHOR = 'Thanos Poulos'
 SITENAME = 'Flux Transition'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 
 THEME = '../theme'
 
