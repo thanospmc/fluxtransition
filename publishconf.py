@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://fluxtransition.thanospoulos.org'
+SITEURL = 'https://thanospmc.github.io/'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = None
