@@ -5,7 +5,7 @@ import os
 
 AUTHOR = 'Thanos Poulos'
 SITENAME = 'Flux Transition'
-SITEURL = 'https://localhost:8000'
+SITEURL = 'http://localhost:8000'
 
 THEME = '../theme'
 
@@ -47,8 +47,19 @@ REUSE_LINKS = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-STATIC_PATHS = ['extra/robots.txt']
-EXTRA_PATH_METADATA = {'extra/robots.txt':{'path': 'robots.txt'}}
+STATIC_PATHS = ['extra/robots.txt', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/robots.txt':{'path': 'robots.txt'},
+                       'extra/CNAME': {'path': 'CNAME'},
+                       'extra/favicon': {'path': 'favicon.ico'}}
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 
 TAGS_ARCHIVES_URL = False
 

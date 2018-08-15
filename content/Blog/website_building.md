@@ -2,7 +2,7 @@ Title: Building this blog with Pelican and Github pages
 Date: 2018-08-15 10:10
 Tags: Untagged
 Author: Thanos Poulos
-Cover: images/fig1.png
+
 Summary: I have been meaning to start a blog for some time now. I actually started one a few years ago using Tumblr's engine but it was short-lived as I did not know what to do with it. This blog is supposed to be more of a journal...
 
 ## Starting a blog
