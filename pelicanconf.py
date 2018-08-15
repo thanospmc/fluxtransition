@@ -47,7 +47,7 @@ REUSE_LINKS = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-STATIC_PATHS = ['extra/robots.txt', 'extra/CNAME']
+STATIC_PATHS = ['images','extra/robots.txt', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/robots.txt':{'path': 'robots.txt'},
                        'extra/CNAME': {'path': 'CNAME'},
                        'extra/favicon': {'path': 'favicon.ico'}}
