@@ -1,4 +1,4 @@
-Title: Building this blog with Pelican and Github pages
+Title: Building this blog with Pelican
 Date: 2018-08-15 10:10
 Tags: Untagged
 Author: Thanos Poulos
