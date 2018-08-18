@@ -47,14 +47,16 @@ REUSE_LINKS = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-STATIC_PATHS = ['images','extra/robots.txt', 'extra/CNAME']
+#STATIC_PATHS = ['images','extra/robots.txt', 'extra/CNAME']
+STATIC_PATHS = ['images','extra']
 EXTRA_PATH_METADATA = {'extra/robots.txt':{'path': 'robots.txt'},
                        'extra/CNAME': {'path': 'CNAME'},
-                       'extra/favicon': {'path': 'favicon.ico'}}
+                       'extra/favicon.ico': {'path': 'favicon.ico'},
+                       }
 
 MARKDOWN = {
     'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.codehilite': {'css_class': 'div.highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
     },
